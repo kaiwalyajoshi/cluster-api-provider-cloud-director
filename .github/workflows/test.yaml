@@ -11,8 +11,9 @@ jobs:
   test:
     name: Test
     runs-on: 
-      - self-hosted
-      - small
+      # - self-hosted
+      # - small
+      - ubuntu-latest
     steps:
       - name: Run
         run: |
